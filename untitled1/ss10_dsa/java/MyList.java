@@ -73,7 +73,7 @@ public class MyList<E> {
         return (E)data[index];
     }
     public E get(int index) {
-        Objects.checkIndex(index, size);
+//        Objects.checkIndex(index, size);
         return elementData(index);
     }
     public void clear() {

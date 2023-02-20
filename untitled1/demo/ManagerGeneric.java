@@ -13,6 +13,7 @@ public class ManagerGeneric <T>{
         User a=managerGeneric.remove(3);
         managerGeneric.setName( new User());
         User b=managerGeneric.remove(4);
+        managerGeneric.remove(3);
 
 
     }
