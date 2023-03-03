@@ -121,6 +121,12 @@ public class MyLinkedList <E>{
         }
     }
 
+    public static void main(String[] args) {
+        LinkedList<MyLinkedList>list=new LinkedList<>();
+
+        list.size();
+    }
+
 
 
 }
