@@ -40,30 +40,4 @@ charArray[key]=value;
 
         }
     }
-//    File file = new File("D:\\Module02\\untitled1\\ss016_java\\io\\exercise\\csv");
-//    List<TheCountry> countries;
-//        countries = new ArrayList<>();
-//
-//        try (Scanner scanner = new Scanner(file)) {
-//        while (scanner.hasNextLine()) {
-//        String line = scanner.nextLine();
-//        String[] fields = line.split(",");
-//
-//        int id = Integer.parseInt(fields[0]);
-//        String code = fields[1];
-//        String name = fields[2];
-//
-//        TheCountry country = new TheCountry(id, code, name);
-//        countries.add(country);
-//        }
-//        } catch (FileNotFoundException e) {
-//        System.err.println("Không tìm thấy file: " + e.getMessage());
-//        }
-//
-//        for (TheCountry country : countries) {
-//        System.out.println(country);
-//        }
-//        }
-
-
 

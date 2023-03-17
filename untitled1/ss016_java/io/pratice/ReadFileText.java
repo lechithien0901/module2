@@ -1,9 +1,6 @@
 package ss016_java.io.pratice;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
 import java.util.Scanner;
 
 public class ReadFileText {
@@ -24,7 +21,7 @@ public class ReadFileText {
             br.close();
             System.out.println( "Total  :"+sum);
 
-        }catch (Exception e){
+        }catch (IOException e){
             System.out.println("file does not exist");
         }
         }

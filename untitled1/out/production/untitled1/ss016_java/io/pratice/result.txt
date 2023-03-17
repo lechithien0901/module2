@@ -1,2 +1,0 @@
-the max is = 15Giá trị lớn nhất là: 15
-Giá trị lớn nhất là: 15
