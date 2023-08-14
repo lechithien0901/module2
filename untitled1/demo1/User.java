@@ -18,6 +18,16 @@ public class User implements Comparable<User> {
     public int age;
     public int height;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", height=" + height +
+                '}';
+    }
+
     public User(int id, String name, int age, int height) {
         this.id = id;
         this.name = name;
@@ -25,12 +35,6 @@ public class User implements Comparable<User> {
         this.height = height;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                '}';
-    }
 
     public static void main(String[] args) {
         ArrayList<User>userArrayList=new ArrayList<>();

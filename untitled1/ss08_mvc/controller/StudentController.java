@@ -22,7 +22,7 @@ public class StudentController {
             select = Integer.parseInt(scanner.nextLine());
             switch (select) {
                 case 1://list
-                    Student[] studentList = service.findAll();
+                    Student[]  studentList= service.findAll();
                     for (Student student: studentList){
                         System.out.println(student);
                     }

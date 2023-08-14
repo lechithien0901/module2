@@ -9,7 +9,7 @@ public class Point3D extends Point2D {
         this.z=z;
     }
     public Point3D(float z,float x,float y){
-        super(x,y);
+       super(x,y);
         this.z=z;
     }
 

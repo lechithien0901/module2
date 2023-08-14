@@ -59,11 +59,11 @@ public class Fan {
     }
     public String toString(){
         if (on){
-            return getSpeed()+"-"+getTotal()+"-"+getColor()+"-"+getRadius()+":"+"fan is on";
+            return getSpeed()+" "+getTotal()+" "+getColor()+" "+getRadius()+" : "+"fan is on";
 
         }
         else {
-            return getSpeed()+"-"+getTotal()+"-"+getColor()+"-"+getRadius()+":"+"fan is off";
+            return getSpeed()+" "+getTotal()+" "+getColor()+" "+getRadius()+" : " + "fan is off";
         }
 
     }

@@ -4,7 +4,7 @@ import ss08_mvc.model.Student;
 
 public class StudentRepositoryImpl implements StudentRepository {
     //ket noi DB
-    private static Student[] studentList;
+    private static  Student[] studentList;
     private static int size = 0;
 
     static {
@@ -28,7 +28,10 @@ public class StudentRepositoryImpl implements StudentRepository {
     @Override
     public void addStudent(Student student) {
         /*kiem tra size >= 10 */
+
         studentList[size] = student;
         size++;
+
     }
+
 }
